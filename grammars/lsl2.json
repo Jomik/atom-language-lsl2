@@ -1,0 +1,12 @@
+{
+  "name": "Linden Scripting Language",
+  "scopeName": "source.lsl2",
+  "type": "tree-sitter",
+  "parser": "tree-sitter-lsl2",
+  "fileTypes": ["lsl"],
+  "comments": { "start": "// " },
+  "folds": [{ "type": "comment" }],
+  "scopes": {
+    "script": "source.lsl2"
+  }
+}

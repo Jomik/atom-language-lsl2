@@ -1,0 +1,20 @@
+{
+  "name": "language-lsl2",
+  "version": "0.0.0",
+  "description": "A tree-sitter language package for Linden Scripting Language.",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/jomik/atom-language-lsl2",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "tree-sitter-lsl2": "0.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.3"
+  }
+}
