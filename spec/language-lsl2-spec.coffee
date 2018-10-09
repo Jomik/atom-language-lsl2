@@ -9,7 +9,7 @@ describe "Lsl2 grammar", ->
       atom.packages.activatePackage("language-lsl2")
 
     runs ->
-      grammar = atom.syntax.grammarForScopeName("source.lsl2")
+      grammar = atom.grammars.grammarForScopeName("source.lsl2")
 
   it "parses the grammar", ->
     expect(grammar).toBeTruthy()

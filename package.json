@@ -12,7 +12,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "tree-sitter-lsl2": "0.0.2"
+    "tree-sitter-lsl2": "0.0.5"
   },
   "devDependencies": {
     "prettier": "^1.14.3"

@@ -7,6 +7,6 @@
   "comments": { "start": "// " },
   "folds": [{ "type": "comment" }],
   "scopes": {
-    "script": "source.lsl2"
+    "program": "source.lsl2"
   }
 }
