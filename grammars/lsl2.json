@@ -7,6 +7,28 @@
   "comments": { "start": "// " },
   "folds": [{ "type": "comment" }],
   "scopes": {
-    "program": "source.lsl2"
+    "program": "source.lsl2",
+    "default_state > 'default'": "support.entity.name.section",
+    "state_declaration > identifier": "entity.name.section",
+    "event_block > identifier": "support.entity.name.tag",
+    "function_call_expression > identifier": "entity.function.name",
+    "function_declaration > identifier": "entity.function.name",
+    "type_name": "support.storage.type",
+    "label_statement": "entity.name.tag",
+
+    "integer_literal": "constant.numeric",
+    "float_literal": "constant.numeric",
+    "string_literal": "constant.string.quoted.double",
+    "vector_literal": "constant.other",
+    "quaternion_literal": "constant.other",
+
+    "'if'": "keyword.control",
+    "'do'": "keyword.control",
+    "'else'": "keyword.control",
+    "'while'": "keyword.control",
+    "'for'": "keyword.control",
+    "'return'": "keyword.control",
+    "'state'": "keyword.control",
+    "'jump'": "keyword.control"
   }
 }
