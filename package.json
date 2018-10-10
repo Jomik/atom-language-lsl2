@@ -1,6 +1,6 @@
 {
   "name": "language-lsl2",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A tree-sitter language package for Linden Scripting Language.",
   "keywords": [
     "language",
